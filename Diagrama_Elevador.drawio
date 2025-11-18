@@ -1,0 +1,30 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="elevadorDiagram" name="Diagrama">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Clase Elevador -->
+        <mxCell id="2" value="Elevador&#xa;-------------------------&#xa;- pisoActual: int&#xa;- pisosMaximos: int&#xa;-------------------------&#xa;+ subir(): void&#xa;+ bajar(): void&#xa;+ abrirPuertas(): void&#xa;+ cerrarPuertas(): void&#xa;+ getPisoActual(): int" style="shape=rectangle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="220" height="220" as="geometry"/>
+        </mxCell>
+
+        <!-- Clase ElevadorPasajeros -->
+        <mxCell id="3" value="ElevadorPasajeros&#xa;-------------------------&#xa;- capacidad: int&#xa;- pasajerosActuales: int&#xa;-------------------------&#xa;+ entrarPasajero(): void&#xa;+ salirPasajero(): void" style="shape=rectangle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="220" height="200" as="geometry"/>
+        </mxCell>
+
+        <!-- Clase Main -->
+        <mxCell id="4" value="Main&#xa;-------------------------&#xa;+ main(String[] args): void" style="shape=rectangle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="220" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Herencia: ElevadorPasajeros -> Elevador -->
+        <mxCell id="5" style="endArrow=block;endFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" source="3" target="2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
