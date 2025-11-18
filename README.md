@@ -45,11 +45,29 @@ java Main
 
 En el archivo llamado "Diagrama_Elevador.drawio" se encuentra el diagrama del proyecto.
 
+## Pruebas 
+
+Prueba 1
+• El usuario inicia en el piso 0.
+• Selecciona '1. Subir' → El elevador sube al piso 1.
+• Selecciona '4. Entrar pasajero' → Se agrega un pasajero.
+• Selecciona '6. Mostrar piso' → Se muestra el piso actual.
+
+Prueba 2
+• El elevador inicia nuevamente en piso 0.
+• El usuario selecciona '4. Entrar pasajero' hasta la capacidad máxima.
+• Al intentar ingresar otro pasajero, el sistema muestra: 'El elevador está lleno'.
+• Luego selecciona '7. Salir' y el programa finaliza correctamente.
+
+
+
 Conclusion
 - Clases y objetos en Java
 - Uso de métodos
 - Condiciones
 - Menú básico con consola
+- Diagrama
+- Pruebas
 
 Autor
 
